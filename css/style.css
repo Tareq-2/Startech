@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: lightgrey;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    position: relative;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    padding: 10px 20px;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li:hover >a{
+    transition: .7s;
+    background-color:mediumseagreen;
+}
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    background-color: lightblue;
+    width: 230px;
+}
+nav ul li ul li ul{
+    left: 100%;
+    top: 0;
+}
+nav ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+}
+div{
+    background-color: lightgrey;
+    border: 1px solid black;
+    width: 25%;
+    height: ;
+}
+.discount_tag{
+    border-radius: 0px 30px 30px 0px;
+    background-color: blue;
+    color: white;
+    width: 80%;
+    padding: 3px 10px;
+}
+ul{
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+strong{
+    color: red;
+    text-align: center;
+}
